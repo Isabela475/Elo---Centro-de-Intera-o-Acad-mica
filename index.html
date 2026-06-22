@@ -8,10 +8,10 @@
 
 </head>
 <body>
-    <header class="main_header">
+    <header class="main_header">                   <!--Cabeçalho Topo-->
 
         <div class="header_left">
-            <button class="grid_button">#</button>
+            <button class="grid_button">#</button> <!--Simbolo Janela no canto superior esquerdo -->
 
             <div class="logo">
                 <span class="logo_icon">logo</span>
@@ -19,7 +19,7 @@
 
         </div>
 
-        <div class="header_center">
+        <div class="header_center">     <!--Espaço para Pesquisa-->
 
             <div class="search_wrapper">
 
@@ -30,14 +30,243 @@
 
         </div>
 
-        <div class="header_right">
+        <div class="header_right">     <!--Botões Superiores Direitos-->
 
             <button class="button_creditos_AC">+ Créditos AC</button>
             <button class="button_creditos_OP">+ Créditos OP</button>
 
         </div>
 
-    </header>
+    </header>            
+
+    <main class="main_layout">     <!--Corpo do Site-->
+
+        <section class="feed-container">    <!--Conteúdos Principais Relacionados-->
+            
+            <article class="feed-card">     <!--Cartão de Post Tipo Texto-->
+
+                <div class="card-header">   <!--Cabeçalho Usuário-->
+
+                    <div class="professor-info">
+
+                        <div class="profile-pic">👨</div>
+                    
+                        <div>
+
+                            <h3 class="professor-name">Prof. Carlos Silva</h3>
+                            <span class="post-time">Postado há 2 horas</span>
+                        
+                        </div>
+                    
+                    </div>
+
+                    <span class="badge tag-role-blue">Professor</span>
+
+                </div>
+
+                <div class="card-body">   <!--Conteúdo do Post-->
+
+                    <p>Pessoal, estão abertas as inscrições para o Workshop de Desenvolvimento Web focado em Front-end. A participação garante <strong>12 horas de AC</strong> na categoria de extensão. Não percam!</p>
+
+                    <div class="card-attachment">  <!--Anexos do Post-->
+
+                        <span class="file-icon">📁</span>
+                        <a href="#" class="file-link">edital_workshop_2026.pdf</a>
+                    
+                    </div>
+               
+                </div>
+
+                <div class="card-footer">    <!--Likes, comentários do Post-->
+
+                    <button class="interaction-btn like-btn">❤️ <span class="like-count">14</span></button>
+                    <button class="interaction-btn comment-btn">💬 <span>5 Comentários</span></button>
+               
+                </div>
+           
+            </article>
+
+            <article class="feed-card enquete-card">    <!--Cartão de Post Tipo Enquete-->
+
+                <div class="card-header">  <!--Cabeçalho Usuário-->
+
+                    <div class="professor-info">
+
+                        <div class="profile-pic">👨</div>
+                    
+                        <div>
+
+                            <h3 class="professor-name">Prof. Carlos Silva</h3>
+                            <span class="post-time">Postado ontem</span>
+                        
+                        </div>
+                    
+                    </div>
+
+                    <span class="badge tag-role-blue">Professor</span>
+
+                </div>
+
+                <div class="card-body">
+
+                    <p class="enquete-question">Vocês teriam interesse na oferta da disciplina optativa de <strong>Teoria dos Grafos</strong> no próximo semestre?</p>
+                    
+                    <div class="enquete-options">
+
+                        <button class="poll-option-btn">
+                            <span class="option-text">Sim, com certeza!</span>
+                            <span class="option-pct">65%</span>
+                        </button>
+
+                        <button class="poll-option-btn">
+                            <span class="option-text">Não tenho interesse.</span>
+                            <span class="option-pct">35%</span>
+                        </button>
+
+                    </div>
+
+                    <div class="poll-total-votes">112 votos no total</div>
+
+                </div>
+
+                <div class="card-footer">   
+
+                    <button class="interaction-btn like-btn">❤️ <span class="like-count">14</span></button>
+                    <button class="interaction-btn comment-btn">💬 <span>5 Comentários</span></button>
+               
+                </div>
+
+            </article>
+
+        </section>
+
+        <aside class="sidebar-score">       <!--Conteúdo Lateral-->
+            
+            <h2 class="sidebar-title">SCORE DE HORAS</h2>
+
+            <div class="progress-group">   <!--Área com as Três Barras de Progresso-->
+
+                <div class="progress-item">  <!--Barra Progresso Horas AC-->
+
+                    <div class="progress-info">   <!--Informações Barra-->
+                        <span class="progress-label">Horas AC</span>
+                        <span class="progress-qty">96/176</span>
+                    </div>
+                    
+                    <div class="progress-bar-bg">  <!--Preenchemento da Barra-->
+                        <div class="progress-bar-fill ac-fill" style="width: 54%;"></div>
+                    </div>
+                
+                </div>
+
+                <div class="progress-item">  <!--Barra Progresso Horas OP-->
+                   
+                    <div class="progress-info">  <!--Informações Barra-->
+                        <span class="progress-label">Horas OP</span>
+                        <span class="progress-qty">192/896</span>
+                    </div>
+                   
+                    <div class="progress-bar-bg"> <!--Preenchemento da Barra-->
+                        <div class="progress-bar-fill op-fill" style="width: 21%;"></div>
+                    </div>
+               
+                </div>
+
+                <div class="progress-item">     <!--Barra Progresso ahaoras Totais Exigidos-->
+                    
+                    <div class="progress-info">   <!--Informações Barra-->
+                        <span class="progress-label">Horas Totais Exigidas</span>
+                        <span class="progress-qty">1920/3648</span>
+                    </div>
+                    
+                    <div class="progress-bar-bg">  <!--Preenchemento da Barra-->
+                        <div class="progress-bar-fill total-fill" style="width: 52%;"></div>
+                    </div>
+                
+                </div>
+
+            </div>
+
+            <div class="period-box">  <!--Período Inicial e de Conclusão-->
+
+                <p class="period-text">Periodo inicial: <span class="period-value">2023.2</span></p>
+
+                <p class="period-text">Conclusão Estimada: <span class="period-value">2027.2</span></p>
+            
+            </div>
+
+            <div class="sidebar-buttons">    <!--Botões para Adicionar Horas-->
+
+                <button class="btn-add ac-btn">+ Adicionar AC</button>
+                <button class="btn-add op-btn">+ Adicionar OP</button>
+                <button class="btn-add ob-btn">+ Adicionar OB</button>
+
+            </div>
+
+        </aside>
+
+    </main>
+    
+    <div class="modal-overlay" id="modalAC"> 
+        <div class="modal-box"> <!--Aba Sobreposta para Adicionar Horas-->
+                
+            <div class="modal-header">
+                    
+                <h3>Adicionar Créditos AC</h3>
+                <button class="close-modal-btn" id="closeModal">X</button>
+                    
+            </div>
+                
+            <form class="modal-form" id="formAdicionarHoras"> <!--Fomulário a ser preenchido pelo Usuário-->
+
+                <div class="form-group">  <!--Usaremos essa Classe para permitir empilhar o texto acima da entrada de formulário-->
+
+                    <label for="tipoAtividade">Tipo de Atividade</label>
+
+                    <select id="tipoAtividade" required>
+
+                        <option value="">Selecione a categoria...</option>
+                        <option value="extensao">Projetos de Extensão</option>
+                        <option value="pesquisa">Iniciação Científica</option>
+                        <option value="evento">Participação em Eventos</option>
+
+                    </select>
+
+                </div>    
+
+                <div class="form-group">
+
+                    <label for="descricaoAtividade">Descrição / Nome do Evento</label>
+                    <input type="text" id="descricaoAtividade" placeholder="Ex: Workshop de Front-end" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="qtdHoras">Quantidade de Horas</label>
+                    <input type="number" id="qtdHoras" min="1" placeholder="Ex: 12" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="comprovante">Upload do Certificado (PDF ou Imagem)</label>
+                    <input type="file" id="comprovante" required>
+                                
+                </div>
+
+                <div class="modal-actions">
+                            
+                    <button type="button" class="btn-cancel" id="btnCancelar">Cancelar</button>
+                    <button type="submit" class="btn-submit">Enviar para Análise</button>
+                        
+                </div>
+    
+            </form>
+    
+        </div>
+    
+    </div>
 
     <script src="script.js"></script>
 </body>
