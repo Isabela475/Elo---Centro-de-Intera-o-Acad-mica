@@ -18,7 +18,7 @@
 .search_button{
     padding: 12px 24px;
     background:none;
-    background-image: url('assets/icons/search_icon.png');
+    background-image: url('assets/icons/search.png');
     background-size: contain;    
     background-repeat: no-repeat;
     background-position: center; 
