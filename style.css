@@ -1,0 +1,77 @@
+.button_creditos_AC,
+.button_creditos_OP {
+    background: linear-gradient(135deg, #c2ff72 20%, #ecffd9 80%);
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_creditos_AC:hover,
+.button_creditos_OP:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.search_button{
+    padding: 12px 24px;
+    background:none;
+    background-image: url('assets/icons/search_icon.png');
+    background-size: contain;    
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: none;                
+    cursor: pointer;             
+}
+
+.interaction-btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px 30px;;
+    border: none; 
+    background: none;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.interaction-btn img{
+    width: 18px;
+    height: 18px;
+}
+
+.comment-btn{
+    background-image: url('assets/icons/empty_coments.png');
+    
+}
+
+.like-count, .comments-count{
+    color: #1fbbff;
+    font-size: 14px;
+}
+
+.btn-add{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #000000; 
+    background-color: white;
+    color: #bdfb70;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;   
+}
+
+.btn-add img{
+    width: 24px;
+    height: 24px;
+}
+
+.btn-add:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
