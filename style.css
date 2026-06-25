@@ -1,6 +1,72 @@
+.main_header{
+    display: flex;
+    background-color: #c2ff72;
+    gap: 20px;
+    padding: 8px 18px;
+}
+
+.header_left{
+    display: flex;
+    gap:20px;
+}
+
+.logo img{
+    width: 35px;
+    height: 35px;   
+}
+
+.header_center{
+    background-color: #eeffd9;
+    border-radius: 20px;
+    border: 2px solid #2eae21;
+    width: 500px;
+    height: 25px;
+    position: relative;
+    top: 3px;
+    
+}
+
+.search_input{
+    background: none;
+    border:  none;
+    width: 440px;
+    height: 25px;    
+    outline: none;
+    position: relative;
+    left: 10px;
+}
+
+.search_button{
+    padding: 12px 24px;
+    background:none;
+    background-image: url('assets/icons/search.png');
+    background-size: contain;    
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: none;                
+    cursor: pointer;      
+    position: relative;
+    bottom: 6px;       
+}
+
+.window_button{
+    padding: 18px 18px;
+    background:none;
+    background-image: url('assets/icons/window.png');
+    background-size: contain;    
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: none;                
+    cursor: pointer; 
+}
+
+.header_right{
+    position: relative;
+}
 .button_creditos_AC,
 .button_creditos_OP {
-    background: linear-gradient(135deg, #c2ff72 20%, #ecffd9 80%);
+    background: linear-gradient(90deg, #c2ff72 0%, #ecffd9 40%);
+    box-shadow: 0 4px 12px rgba(0.5,0.5,0.5,0.5);
     color: black;
     border: none;
     padding: 12px 24px;
@@ -15,16 +81,6 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-.search_button{
-    padding: 12px 24px;
-    background:none;
-    background-image: url('assets/icons/search.png');
-    background-size: contain;    
-    background-repeat: no-repeat;
-    background-position: center; 
-    border: none;                
-    cursor: pointer;             
-}
 
 .interaction-btn{
     display: flex;
@@ -55,15 +111,17 @@
 
 .btn-add{
     display: flex;
-    align-items: center;
+    align-items:center;
     gap: 8px;
-    padding: 10px 16px;
-    border: 1px solid #000000; 
+    padding: 10px 24px;
     background-color: white;
-    color: #bdfb70;
-    border-radius: 20px;
+    border: none;
+    border-radius: 30px;
     cursor: pointer;
-    transition: 0.3s;   
+    transition: 0.3s;
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(1,1,1,1);
+    
 }
 
 .btn-add img{
@@ -73,5 +131,20 @@
 
 .btn-add:hover{
     transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.sidebar-title{
+    color: #1fbbff;
+    text-decoration: underline;
+}
+.period-text{
+    color: #1fbbff;
+}
+.period-value{
+    color: black;
+}
+
+.profile-pic img{
+    width: 35px;
+    height: 35px;   
 }
