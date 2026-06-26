@@ -1,52 +1,19 @@
+body{
+    margin: 0;
+}
+
 .main_header{
     display: flex;
     background-color: #c2ff72;
     gap: 20px;
     padding: 8px 18px;
+    
 }
 
 .header_left{
     display: flex;
     gap:20px;
-}
-
-.logo img{
-    width: 35px;
-    height: 35px;   
-}
-
-.header_center{
-    background-color: #eeffd9;
-    border-radius: 20px;
-    border: 2px solid #2eae21;
-    width: 500px;
-    height: 25px;
-    position: relative;
-    top: 3px;
     
-}
-
-.search_input{
-    background: none;
-    border:  none;
-    width: 440px;
-    height: 25px;    
-    outline: none;
-    position: relative;
-    left: 10px;
-}
-
-.search_button{
-    padding: 12px 24px;
-    background:none;
-    background-image: url('assets/icons/search.png');
-    background-size: contain;    
-    background-repeat: no-repeat;
-    background-position: center; 
-    border: none;                
-    cursor: pointer;      
-    position: relative;
-    bottom: 6px;       
 }
 
 .window_button{
@@ -60,8 +27,48 @@
     cursor: pointer; 
 }
 
+.logo img{
+    width: 50px;
+    height: 50px;   
+}
+
+.header_center{
+    background-color: #eeffd9;
+    border-radius: 20px;
+    border: 2px solid #2eae21;
+    width: 830px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.search_input{
+    background: none;
+    border:  none;
+    width: 770px;
+    height: 25px;    
+    outline: none;
+    position: relative;
+    left: 10px;
+}
+
+.search_button{
+    padding: 12px 24px;
+    background:none;
+    background-image: url('assets/icons/search.png');
+    background-size: contain;    
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: none;  
+    cursor: pointer;      
+    position: relative;
+    bottom: 6px;       
+}
+
 .header_right{
     position: relative;
+    top: 5px;
 }
 .button_creditos_AC,
 .button_creditos_OP {
@@ -144,7 +151,45 @@
     color: black;
 }
 
+.main_layout{
+    background-color: #effafd;
+    display: flex;
+    gap: 100px;
+}
+
+.feed-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0 0 5px;
+}
+
+.feed-card{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+
+.professor-info{
+    display: flex;
+    flex-direction: row;
+    
+    gap:15px;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    top:0px;
+}
+
 .profile-pic img{
     width: 35px;
-    height: 35px;   
+    height: 35px;
+}
+
+.sidebar-score{
+    background-color: white;
+    border-radius: 20px;
 }
