@@ -4,10 +4,9 @@ body{
 
 .main_header{
     display: flex;
-    background-color: #c2ff72;
+    background: linear-gradient(90deg, #89f100 0%, #c2ff72 40%);
     gap: 20px;
     padding: 8px 18px;
-    
 }
 
 .header_left{
@@ -60,10 +59,10 @@ body{
     background-size: contain;    
     background-repeat: no-repeat;
     background-position: center; 
-    border: none;  
+    border: none;
     cursor: pointer;      
     position: relative;
-    bottom: 6px;       
+    bottom: 6px;
 }
 
 .header_right{
@@ -158,6 +157,7 @@ body{
 }
 
 .feed-container{
+    border: #ecffd9 ;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -167,29 +167,93 @@ body{
 .feed-card{
     background-color: white;
     border-radius: 20px;
+    border: 15px solid white;
     
 }
 
 
-.professor-info{
-    display: flex;
-    flex-direction: row;
-    
-    gap:15px;
+.profile-info {
+    display: grid;
+    grid-template-columns: 35px 200px auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "pic name badge"
+        "pic time badge";
+    column-gap: 10px;
+    row-gap: 0;
+    align-items: center;
 }
 
-.profile-text{
-    display: flex;
-    flex-direction: column;
-    top:0px;
+.profile-pic {
+    grid-area: pic;
+    display: block;
 }
 
 .profile-pic img{
     width: 35px;
     height: 35px;
+    display: block;
+}
+
+.profile-name{
+    grid-area: name;
+    display: inline-block;
+    max-width: 200px;
+    min-width: 50px;
+}
+
+.post-time{
+    font-size: 12px;
+    color: #656565;
+    grid-area: time;
+    display: block;
+    position: relative;
+    left: 5px;
+}
+.badge{
+    grid-area: badge;
+    display: block;
+    color: #1fbbff;
+}
+
+.card-footer{
+    display:flex;
+    gap: auto;
+    position:relative;
+    top: 5px;
+    bottom: 10px;
+}
+
+.enquete-options{
+    display: flex;
+    border: 2px solid #1fbbff;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    flex-direction: column;
+    
+}
+
+.poll-option-btn{
+    border: 2px solid #1fbbff;
+    padding: 8px 18px;
+    color: #1fbbff;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    height: 50px;
+    margin: 10px;
+}
+
+.poll-total-votes{
+    font-size: 12px;
+    color: #656565;
+    position: relative;
+    left: 10px;
 }
 
 .sidebar-score{
     background-color: white;
     border-radius: 20px;
+    
 }
