@@ -133,6 +133,7 @@ body{
 .btn-add img{
     width: 24px;
     height: 24px;
+    
 }
 
 .btn-add:hover{
@@ -352,15 +353,27 @@ body{
 }
 
 .modal-overlay{
-    display: none;
+    /*display: none;*/
     background-color: white;
-    box-shadow: 0 4px 12px rgba(0.5,0.5,0.5,0.5);
+    box-shadow: 0 4px 12px rgba(0.7,0.7,0.7,0.7);
     border-radius: 20px;
     padding: 10px;
     z-index: 3;
     position: fixed;
-    top:30%;
-    left: 20%;
+    top:15%;
+    left: 30%;
+    
+}
+
+.modal-header{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.modal-form{
+    display: grid;
+    gap: 15px;
     
 }
 
@@ -368,4 +381,89 @@ body{
     background: none;
     border: none;
     color: gray;
+}
+
+.modal-header h3{
+    color: #1fbbff;
+} 
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.form-group select {
+    padding: 12px 14px;
+    font-size: 1rem;
+    color: #333;
+    background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+}
+
+.form-group select:hover {
+    border-color: #a0aec0;
+}
+.form-group input{
+    border: 1px solid #d1d5db;
+    height: 30px;
+}
+
+
+.modal-actions{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+
+}
+
+.modal-btn{
+    display: flex;
+    height: 45px;
+    align-items:center;
+    gap: 8px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0.3,0.3,0.3,0.3);
+}
+
+.modal-btn:hover{
+    transform: scale(1.05);
+    
+}
+
+.modal-btn img{
+    width: 18px;
+    height: 18px;
+}
+
+.btn-cancel{
+    border: red solid 2px;
+}
+
+.btn-cancel span{
+    color: red;
+}
+
+.btn-submit{
+    border: #66d1ff solid 2px;
+}
+
+.btn-submit span{
+    color: #66d1ff;
+}
+
+#comprovante{
+    border: none;
 }
