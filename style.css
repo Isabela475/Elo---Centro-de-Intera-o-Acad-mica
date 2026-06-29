@@ -353,7 +353,6 @@ body{
 }
 
 .modal-overlay{
-    /*display: none;*/
     background-color: white;
     box-shadow: 0 4px 12px rgba(0.7,0.7,0.7,0.7);
     border-radius: 20px;
@@ -422,6 +421,18 @@ body{
 
 }
 
+#qtdHoras{
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#descricaoAtividade{
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
 .modal-btn{
     display: flex;
     height: 45px;
@@ -450,18 +461,32 @@ body{
     border: red solid 2px;
 }
 
-.btn-cancel span{
-    color: red;
-}
-
 .btn-submit{
     border: #66d1ff solid 2px;
 }
 
-.btn-submit span{
-    color: #66d1ff;
+.btn-confirmt{
+    border: #89f100 solid 2px;
 }
+
 
 #comprovante{
     border: none;
+}
+
+.add-hour{
+    top:35%;
+}
+
+#modalAC{
+    display: none;
+}
+#modalhorasAC{
+    display: none;
+}
+#modalhorasOP{
+    display: none;
+}
+#modalhorasOB{
+    display: none;
 }
