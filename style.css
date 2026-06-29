@@ -35,7 +35,7 @@ body{
     background-color: #eeffd9;
     border-radius: 20px;
     border: 2px solid #2eae21;
-    width: 500px;
+    width: 830px;
     height: 25px;
     position: relative;
     top: 10px;
@@ -45,7 +45,7 @@ body{
 .search_input{
     background: none;
     border:  none;
-    width: 440px;
+    width: 770px;
     height: 25px;    
     outline: none;
     position: relative;
@@ -321,9 +321,9 @@ body{
     border: 20px solid white;
     border-radius: 20px;
     width: 300px;
-    height: 600px;
+    height: 550px;
     position: fixed;
-    top: 20px;
+    top: 75px;
     right: 20px;
 
     box-shadow: 0 4px 12px rgba(0.3,0.3,0.3,0.3);
@@ -366,8 +366,11 @@ body{
 }
 
 .modal-header{
-    display: flex;
     gap: 10px;
+    color: #1fbbff;
+    text-decoration: underline;
+    text-align: center;
+    left: 300px;
     
 }
 
@@ -377,11 +380,6 @@ body{
     
 }
 
-.close-modal-btn{
-    background: none;
-    border: none;
-    color: gray;
-}
 
 .modal-header h3{
     color: #1fbbff;
