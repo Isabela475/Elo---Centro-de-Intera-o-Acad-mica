@@ -35,7 +35,7 @@ body{
     background-color: #eeffd9;
     border-radius: 20px;
     border: 2px solid #2eae21;
-    width: 500px;
+    width: 830px;
     height: 25px;
     position: relative;
     top: 10px;
@@ -45,7 +45,7 @@ body{
 .search_input{
     background: none;
     border:  none;
-    width: 440px;
+    width: 770px;
     height: 25px;    
     outline: none;
     position: relative;
@@ -321,9 +321,9 @@ body{
     border: 20px solid white;
     border-radius: 20px;
     width: 300px;
-    height: 600px;
+    height: 550px;
     position: fixed;
-    top: 20px;
+    top: 75px;
     right: 20px;
 
     box-shadow: 0 4px 12px rgba(0.3,0.3,0.3,0.3);
@@ -353,7 +353,6 @@ body{
 }
 
 .modal-overlay{
-    /*display: none;*/
     background-color: white;
     box-shadow: 0 4px 12px rgba(0.7,0.7,0.7,0.7);
     border-radius: 20px;
@@ -366,8 +365,11 @@ body{
 }
 
 .modal-header{
-    display: flex;
     gap: 10px;
+    color: #1fbbff;
+    text-decoration: underline;
+    text-align: center;
+    left: 300px;
     
 }
 
@@ -377,11 +379,6 @@ body{
     
 }
 
-.close-modal-btn{
-    background: none;
-    border: none;
-    color: gray;
-}
 
 .modal-header h3{
     color: #1fbbff;
@@ -424,6 +421,18 @@ body{
 
 }
 
+#qtdHoras{
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#descricaoAtividade{
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
 .modal-btn{
     display: flex;
     height: 45px;
@@ -452,18 +461,32 @@ body{
     border: red solid 2px;
 }
 
-.btn-cancel span{
-    color: red;
-}
-
 .btn-submit{
     border: #66d1ff solid 2px;
 }
 
-.btn-submit span{
-    color: #66d1ff;
+.btn-confirmt{
+    border: #89f100 solid 2px;
 }
+
 
 #comprovante{
     border: none;
+}
+
+.add-hour{
+    top:35%;
+}
+
+#modalAC{
+    display: none;
+}
+#modalhorasAC{
+    display: none;
+}
+#modalhorasOP{
+    display: none;
+}
+#modalhorasOB{
+    display: none;
 }
