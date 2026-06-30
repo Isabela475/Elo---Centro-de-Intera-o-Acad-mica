@@ -128,11 +128,11 @@ document.addEventListener("DOMContentLoaded", () => {
             if (this.classList.contains("liked")) {
                 currentCount--;
                 this.classList.remove("liked");
-                // this.querySelector("img").src = "assets/icons/empty_heart.png"; 
+                this.querySelector("img").src = "assets/icons/empty_heart.png"; 
             } else {
                 currentCount++;
                 this.classList.add("liked");
-                // this.querySelector("img").src = "assets/icons/filled_heart.png"; 
+                this.querySelector("img").src = "assets/icons/filled_heart.png"; 
             }
             
             countSpan.textContent = currentCount;
